@@ -1,0 +1,13 @@
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\bin\Debug\RedditSweeper.exe.config
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\bin\Debug\RedditSweeper.exe
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\bin\Debug\RedditSweeper.pdb
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\obj\Debug\RedditSweeper.csprojResolveAssemblyReference.cache
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\obj\Debug\MainWindow.baml
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\obj\Debug\MainWindow.g.cs
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\obj\Debug\App.g.cs
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\obj\Debug\RedditSweeper_MarkupCompile.cache
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\obj\Debug\RedditSweeper.g.resources
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\obj\Debug\RedditSweeper.Properties.Resources.resources
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\obj\Debug\RedditSweeper.csproj.GenerateResource.Cache
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\obj\Debug\RedditSweeper.exe
+c:\users\jason\documents\visual studio 2013\Projects\RedditSweeper\RedditSweeper\obj\Debug\RedditSweeper.pdb
