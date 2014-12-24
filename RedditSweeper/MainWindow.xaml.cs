@@ -67,16 +67,30 @@ namespace RedditSweeper
             string otherMatchAddress = @"^[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)$";
             MatchCollection fullInfo = Regex.Matches(html, @"title may-blank\s*(.+?)\s*</a>", RegexOptions.None);
             //MatchCollection pClassTitle = Regex.Matches(html, @"k "" href=\s*(.+?)\s*</a>", RegexOptions.None);
-            MatchCollection m1 = Regex.Matches(html, @"^[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)$", RegexOptions.None);
-            MatchCollection m2 = Regex.Matches(html, @"^http\://[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(/\S*)?$", RegexOptions.None);
+            string x = "http://www.reddit.com";
+            MatchCollection m1 = Regex.Matches(html, @"(https?:\/\/)[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)\/+[a-zA-Z0-9\-\.\/]*", RegexOptions.None);
+           // MatchCollection m2 = Regex.Matches(html, @"http://www.", RegexOptions.None);
             //MatchCollection mOther = new MatchCollection();
+            MatchCollection titleLink = null;
+            StringBuilder sB = new StringBuilder();
+            string someStuff = "";
             foreach (Match m in fullInfo)
             {
                 var title = m.ToString();
-                var titleLink = Regex.Matches(m.ToString(), @"/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/", RegexOptions.None);
-                var s = titleLink.ToString();
+                sB.Append(m.ToString());
+                someStuff += title;
+               
             }
+            titleLink = Regex.Matches(sB.ToString(), @"(https?:\/\/)[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)", RegexOptions.None);
+            string thisStuff = "";
+            foreach (var m in titleLink)
+            {
+                thisStuff += m.ToString();
+            }
+            
             //SharpMap sm = new SharpMap();
+            int i = 1;
+            i++;
         }
     }
 
